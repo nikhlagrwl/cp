@@ -14,8 +14,7 @@ int main() {
     while(t--){
         int n, c;
         cin>>n>>c;
-        vector<int> a(n);
-        for(int i=0;i<n;++i){
+        while(n--){
             int k; cin>>k;
             c-=k;
         }
