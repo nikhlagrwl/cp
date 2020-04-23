@@ -23,6 +23,7 @@ void print_parent(vi &parent,int dst)
 	}
 	reverse(ans.begin(),ans.end());
 	print(ans);
+	
 }
 
 void apply_dijkstra(vvpi &gr, vi &dist, vi &parent,int src,int dst)
